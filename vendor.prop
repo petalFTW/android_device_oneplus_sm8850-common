@@ -105,7 +105,7 @@ persist.bluetooth.support.sar=IN|EU|FCC|CE
 persist.bluetooth.testmonitor=false
 persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 persist.vendor.bluetooth.3rd.lhdcv5.support=true
-persist.vendor.bluetooth.haltest=true
+persist.vendor.bluetooth.haltest=false
 persist.vendor.bluetooth.host_addon=63
 persist.vendor.bluetooth.leaudio_mode=ums-cg
 persist.vendor.bluetooth.modem_nv_support=true
@@ -181,7 +181,7 @@ vendor.display.hightempaging_dbv=3046
 vendor.display.rgba_split_support=1
 vendor.display.smomo_game_support=0
 vendor.display.uir_support=1
-vendor.display.use_smooth_motion=1
+vendor.display.use_smooth_motion=0
 vendor.display.vds_allow_hwc=1
 
 # DPM

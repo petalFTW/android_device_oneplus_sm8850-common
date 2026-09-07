@@ -160,9 +160,9 @@ vendor/lib64/vendor.libdpmtcm.so
 vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # eSIM
-odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
-odm/etc/init/esim@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_esim.xml
+# odm/bin/hw/vendor.oplus.hardware.esim@1.0-service  # missing from macanc_dump
+# odm/etc/init/esim@1.0-service.rc  # missing from macanc_dump
+# odm/etc/vintf/manifest/manifest_oplus_esim.xml  # missing from macanc_dump
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
@@ -178,7 +178,7 @@ odm/lib64/librpmbengclient.so
 odm/lib64/libsecurity_event_dcs_vnd.so
 
 # GNSS
-odm/etc/init/lowi-server.rc
+# odm/etc/init/lowi-server.rc  # missing from macanc_dump
 odm/etc/apdr.conf
 odm/etc/gps.conf
 odm/etc/izat.conf
@@ -347,7 +347,7 @@ odm/etc/oem_asm2_tunner_platform_license.pfm
 odm/etc/oem_asm2_tunner_platform_trail_license.pfm
 odm/etc/oem_q_tunner_platform_license.pfm
 odm/etc/oem_q_tunner_platform_trail_license.pfm
-odm/etc/oem_stx_platform_license.pfm
+# odm/etc/oem_stx_platform_license.pfm  # missing from macanc_dump
 odm/etc/oplusdycnvbk_items.xml
 odm/etc/plugin_config.xml
 odm/lib64/lib-virtual-modem-protos.so
@@ -499,14 +499,14 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server-V1-ndk.so
 
 # RIL - UIM
-product/app/uimgbaservice/uimgbaservice.apk
+# product/app/uimgbaservice/uimgbaservice.apk  # missing from macanc_dump
 product/app/uimremoteclient/uimremoteclient.apk
 product/app/uimremoteserver/uimremoteserver.apk
-product/etc/permissions/UimGba.xml
-product/etc/permissions/UimGbaManager.xml
+# product/etc/permissions/UimGba.xml  # missing from macanc_dump
+# product/etc/permissions/UimGbaManager.xml  # missing from macanc_dump
 product/etc/permissions/UimService.xml
-product/framework/uimgbalibrary.jar
-product/framework/uimgbamanagerlibrary.jar
+# product/framework/uimgbalibrary.jar  # missing from macanc_dump
+# product/framework/uimgbamanagerlibrary.jar  # missing from macanc_dump
 product/framework/uimremoteclientlibrary.jar
 product/framework/uimremoteserverlibrary.jar
 product/framework/uimservicelibrary.jar

@@ -360,7 +360,9 @@ PRODUCT_SHIPPING_API_LEVEL += 36
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oplus
+    hardware/oplus \
+    hardware/qcom-caf/wlan \
+    hardware/qcom-caf/wlan/qcwcn
 
 # Storage
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -455,7 +457,8 @@ endif
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/oplus/vintf/device_framework_matrix.xml \
-    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
+    hardware/dolby/vintf/dolby_framework_matrix.xml
 DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/vintf/manifest_canoe.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix_aidl.xml
@@ -490,3 +493,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8850-common/sm8850-common-vendor.mk)
+
+# Dolby Atmos (DAX3, AIDL) — DAP-first
+$(call inherit-product, hardware/dolby/dolby.mk)
