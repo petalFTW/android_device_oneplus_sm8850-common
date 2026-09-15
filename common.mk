@@ -496,3 +496,6 @@ $(call inherit-product, vendor/oneplus/sm8850-common/sm8850-common-vendor.mk)
 
 # Dolby Atmos (DAX3, AIDL) — DAP-first
 $(call inherit-product, hardware/dolby/dolby.mk)
+
+# Bridge — crossfade engine + controller (runs ahead of DAP in the chain)
+$(call inherit-product, hardware/bridge/bridge.mk)
