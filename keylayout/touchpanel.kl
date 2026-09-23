@@ -1,0 +1,4 @@
+# touchpanel wake keys. no keylayout meant dt2w did sweet fa
+key 62  WAKEUP WAKE
+key 116 POWER  WAKE
+key 142 SLEEP  WAKE
